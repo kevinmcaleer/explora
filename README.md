@@ -27,3 +27,4 @@ File | Description
 ---|---
 `explora.py` | The Explora robot class
 `demo.py` | The main demo code
+`lessons` | example code to demonstrate object oriented programming concepts
