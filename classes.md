@@ -1,42 +1,14 @@
 ``` mermaid
 classDiagram
 direction LR
-    class Animal{
-    +legs
-    +name
-    +blood_type
-    +show() None
-    }
-
-    class Mammal {
-
-    +show() None
-    }
-
-    class Reptile {
-    +
-    ()
-    }
-
-    class Dog {
-
-    }
-
-    class Cat {
-
-    }
-
-    class Snake {
-
-    }
-
-    class Insect {
-
-    }
-
-    class Fly {
-
-    }
+    class Animal
+    class Mammal 
+    class Reptile 
+    class Dog 
+    class Cat 
+    class Snake 
+    class Insect 
+    class Fly 
 
 Animal <|-- Mammal
 Animal <|-- Reptile
