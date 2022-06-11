@@ -37,7 +37,7 @@ class Explora:
         use the stop function to stop the robot """
 
         if speed is None:
-            speed = 100
+            speed = self.__speed
         self.explorer_hat.motor.one.forwards(speed)
         self.explorer_hat.motor.two.backwards(speed)
 
@@ -46,11 +46,11 @@ class Explora:
         use the stop function to stop the robot """
 
         if speed is None:
-            speed = 100
+            speed = self.__speed
         self.explorer_hat.motor.one.backwards(speed)
         self.explorer_hat.motor.two.forwards(speed)
 
-    def turnleft(self, speed:int=None):
+    def turn_left(self, speed:int=None):
         """ Turn the robot left, 
         use the stop function to stop the robot """
 
@@ -59,7 +59,7 @@ class Explora:
         self.explorer_hat.motor.one.forwards(speed)
         self.explorer_hat.motor.two.forwards(speed)
 
-    def turnright(self, speed:int=None):
+    def turn_right(self, speed:int=None):
         """ Turn the robot right, 
         use the stop function to stop the robot """
 
@@ -72,3 +72,6 @@ class Explora:
         """ Stop the robot """
         self.explorer_hat.motor.one.stop)
         self.explorer_hat.motor.two.stop)
+
+    def __ping(self):
+        """ Returns the distance from the range finder """
