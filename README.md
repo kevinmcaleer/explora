@@ -25,6 +25,6 @@ A list of the files provided in this respository are provided below:
 
 File | Description
 ---|---
-`explora.py` | The Explora robot class
-`demo.py` | The main demo code
-`lessons` | example code to demonstrate object oriented programming concepts
+[`explora.py`](explora.py) | The Explora robot class
+[`movement_demo.py`](movement_demo.py) | The main demo code
+[`lessons`](lessons) | example code to demonstrate object oriented programming concepts
