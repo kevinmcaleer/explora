@@ -2,8 +2,8 @@ import explorerhat
 
 class Explora:
 
-    __name = ""
-    __speed = 100
+    __name = ""     # the name of the robot
+    __speed = 100   # the speed of the motors
 
     def __init__(self):
         """ Initialise the robot """
@@ -17,6 +17,7 @@ class Explora:
 
     @speed.setter
     def speed(self, value:int):
+        """ Set the overall motor speed """
         if -100 < value < 100:
             self.__speed = value
         else:
