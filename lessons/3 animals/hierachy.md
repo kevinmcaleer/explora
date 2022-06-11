@@ -1,4 +1,4 @@
-```mermaid
+``` mermaid
 flowchart TD
   id1{{Animal}} --> id2{{Mammal}} --> id3{{Cat}} 
   id2 --> id4{{Dog}}
