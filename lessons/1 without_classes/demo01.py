@@ -2,8 +2,6 @@
 # Kevin McAleer
 # June 2022
 
-from curses import beep
-
 # Set the car colours
 car01_colour = 'white'
 car02_colour = 'grey'
