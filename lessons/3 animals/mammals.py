@@ -1,4 +1,3 @@
-from abc import abstractclassmethod, ABC, abstractproperty
 from animals import Animal
 
 class Mammal(Animal):

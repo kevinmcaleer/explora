@@ -8,7 +8,7 @@ class Explora:
     def __init__(self):
         """ Initialise the robot """
         self.__name = "Explora"
-        explorer_hat = explorerhat
+        self.explorer_hat = explorerhat
 
     @property
     def speed(self):
@@ -71,8 +71,8 @@ class Explora:
 
     def stop(self):
         """ Stop the robot """
-        self.explorer_hat.motor.one.stop)
-        self.explorer_hat.motor.two.stop)
+        self.explorer_hat.motor.one.stop()
+        self.explorer_hat.motor.two.stop()
 
     def __ping(self):
         """ Returns the distance from the range finder """

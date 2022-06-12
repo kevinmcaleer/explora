@@ -4,6 +4,8 @@
 
 # Dictionary, one per car
 
+car01 = {'colour':'white', 'owner':'Kevin', 'model':'Zoe', 'fuel_type':'Electric', 'engine_size':'80kW'}
+
 # show details
 
 # beep horn

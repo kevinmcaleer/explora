@@ -21,3 +21,4 @@ animals = [tigger,minnie,sid, archie, buz]
 for animal in animals:
 
     animal.show()
+
