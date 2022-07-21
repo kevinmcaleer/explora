@@ -76,3 +76,7 @@ class Explora:
 
     def __ping(self):
         """ Returns the distance from the range finder """
+
+    def __str__(self):
+        """ Returns the robots name """
+        return f'Hi! my name is {self.__name}'
